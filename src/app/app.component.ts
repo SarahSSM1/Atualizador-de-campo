@@ -9,6 +9,7 @@ import { CarService } from './services/car.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+  title!: 'REST';
 
   car = {} as Car;
   cars!: Car[];
@@ -37,7 +38,7 @@ export class AppComponent implements OnInit {
       });
     }
 
-    deletaCar(car: Car){ // deleta um carro
+    deleteCar(car: Car){ // deleta um carro
       this.carService.deleteCar(car).subscribe(() => {
         this.getCars();
       });
