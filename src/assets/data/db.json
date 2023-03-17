@@ -17,6 +17,33 @@
       "model": "Land Rover Range Rover Velar",
       "color": "Branco",
       "price": 377.38
+    },
+    {
+      "model": "carcacu",
+      "color": "preto",
+      "price": 145.97,
+      "id": 4
+    },
+    {
+      "model": "massa",
+      "color": "roxo",
+      "price": 257.2,
+      "id": 5
+    },
+    {
+      "headers": {
+        "normalizedNames": {},
+        "lazyUpdate": null,
+        "lazyInit": null,
+        "headers": {}
+      },
+      "id": 6
+    },
+    {
+      "model": "subaru",
+      "color": "pink",
+      "price": 460,
+      "id": 7
     }
   ]
 }
